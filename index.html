@@ -3804,11 +3804,12 @@
   function result() {
       var razaoProg = 0.03;
       var custoPar = 40;
-      var valorVenda = 60;
+      var valorVenda = 60;                                                                
+      var valorVendaF = 70;
       var qtd = document.getElementById('qtd').value;
       var tktMedio = document.getElementById('tktMedio').value;
 
-      const lucroUnD = tktMedio - valorVenda;
+      const lucroUnD = tktMedio - valorVendaF;
       const lucroMesD = lucroUnD * qtd;
       const porcentagemPlacaD = lucroUnD / tktMedio * 100
 
